@@ -32,7 +32,6 @@
             tools:text="Nombre del juego" />
 
 
-
         <TextView
             android:id="@+id/tvplat"
             android:layout_width="0dp"
@@ -43,11 +42,24 @@
             android:textSize="20dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editButton"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvName"
             tools:text="Plataforma del juego" />
+
+        <ImageButton
+            android:id="@+id/editButton"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="6dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvName"
+            app:srcCompat="@drawable/ic_edit" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </com.google.android.material.card.MaterialCardView>

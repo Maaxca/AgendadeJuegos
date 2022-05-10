@@ -12,7 +12,7 @@ import com.example.agendadevideojuegos.databinding.ActivityMainBinding
 import com.example.agendadevideojuegos.databinding.VideogameBinding
 import com.google.firebase.database.collection.LLRBNode
 
-class VideoGameAdapter(private var videogames:ArrayList<Videogame>) :
+class VideoGameAdapter(private var videogames:ArrayList<Videogame>,private var listener:OnClickListener) :
 RecyclerView.Adapter<VideoGameAdapter.ViewHolder>(){
 
     private lateinit var mContext:Context
@@ -29,6 +29,7 @@ RecyclerView.Adapter<VideoGameAdapter.ViewHolder>(){
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val character=videogames.get(position)
         with(holder){
+            setListener(character)
 
             binding.tvName.text=character.nombre
             binding.tvplat.text=character.plataforma
@@ -44,9 +45,13 @@ RecyclerView.Adapter<VideoGameAdapter.ViewHolder>(){
                 binding.fondo.setBackgroundColor(Color.BLUE)
             }
 
-
-
-
+        }
+    }
+    fun delete(videogame: Videogame) {
+        val index=videogames.indexOf(videogame)
+        if(index!=-1){
+            videogames.removeAt(index)
+            notifyItemRemoved(index)
         }
     }
     fun setStores(stores: ArrayList<Videogame>) {
@@ -55,6 +60,19 @@ RecyclerView.Adapter<VideoGameAdapter.ViewHolder>(){
     }
     inner class ViewHolder(view: View): RecyclerView.ViewHolder(view){
         val binding= VideogameBinding.bind(view)
+
+        fun setListener(videogame:Videogame){
+            with(binding.root){
+                setOnLongClickListener(){
+                    listener.onDeleteGame(videogame)
+                    true
+                }
+            }
+            binding.editButton.setOnClickListener{
+                listener.onEditGame(videogame)
+                true
+            }
+        }
 
     }
 
