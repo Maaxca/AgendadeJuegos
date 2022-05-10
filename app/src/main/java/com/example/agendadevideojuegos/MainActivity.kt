@@ -56,12 +56,6 @@ class MainActivity : AppCompatActivity() {
         }
         setupRecyclerView()
         }
-
-
-
-
-
-
     private fun setupRecyclerView() {
         mAdapter = VideoGameAdapter(ArrayList())
         mGridLayout = GridLayoutManager(this, resources.getInteger(R.integer.main_columns))
