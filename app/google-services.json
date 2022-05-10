@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348212447085",
+    "project_id": "agenda-de-videojuegos",
+    "storage_bucket": "agenda-de-videojuegos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348212447085:android:382c9e17801ebb788afc64",
+        "android_client_info": {
+          "package_name": "com.example.agendadevideojuegos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348212447085-0a9efdkkb9gqitghh33m82h9428j5tkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4TAEmGA89ZwR1CPdvg7tq2hcaJaM4Kso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348212447085-0a9efdkkb9gqitghh33m82h9428j5tkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

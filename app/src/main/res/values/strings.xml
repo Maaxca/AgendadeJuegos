@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Agenda de videojuegos</string>
+    <string-array name="Estados">
+        <item>Pendiente</item>
+        <item>Jugando</item>
+        <item>Completado</item>
+    </string-array>
+    <string-array name="Plataformas">
+        <item>PSP</item>
+        <item>PS1</item>
+        <item>PS2</item>
+        <item>PS3</item>
+        <item>PS4</item>
+        <item>PS5</item>
+        <item>PSVITA</item>
+        <item>NES</item>
+        <item>SNES</item>
+        <item>GameBoy</item>
+        <item>GameBoyColor</item>
+        <item>GameBoyAdvance</item>
+        <item>VirtualBoy</item>
+        <item>Nintendo 64</item>
+        <item>GameCube</item>
+        <item>GameAndWatch</item>
+        <item>WII</item>
+        <item>WIIU</item>
+        <item>Nintendo DS</item>
+        <item>Nintendo 3DS</item>
+        <item>Nintendo Switch</item>
+        <item>XBOX</item>
+        <item>XBOX 360</item>
+        <item>XBOX ONE</item>
+        <item>XBOX Serie X</item>
+        <item>PC</item>
+        <item>PC ENGINE</item>
+        <item>Sega Master System</item>
+        <item>Sega Megadrive</item>
+        <item>Sega CD</item>
+        <item>Sega Game Gear</item>
+        <item>Sega Saturn</item>
+        <item>Sega DreamCast</item>
+        <item>Atari Lynx</item>
+        <item>Atari Jaguar</item>
+
+    </string-array>
+    <string-array name="Plataformas2">
+        <item>Todas</item>
+        <item>PSP</item>
+        <item>PS1</item>
+        <item>PS2</item>
+        <item>PS3</item>
+        <item>PS4</item>
+        <item>PS5</item>
+        <item>PSVITA</item>
+        <item>NES</item>
+        <item>SNES</item>
+        <item>GameBoy</item>
+        <item>GameBoyColor</item>
+        <item>GameBoyAdvance</item>
+        <item>VirtualBoy</item>
+        <item>Nintendo 64</item>
+        <item>GameCube</item>
+        <item>GameAndWatch</item>
+        <item>WII</item>
+        <item>WIIU</item>
+        <item>Nintendo DS</item>
+        <item>Nintendo 3DS</item>
+        <item>Nintendo Switch</item>
+        <item>XBOX</item>
+        <item>XBOX 360</item>
+        <item>XBOX ONE</item>
+        <item>XBOX Serie X</item>
+        <item>PC</item>
+        <item>PC ENGINE</item>
+        <item>Sega Master System</item>
+        <item>Sega Megadrive</item>
+        <item>Sega CD</item>
+        <item>Sega Game Gear</item>
+        <item>Sega Saturn</item>
+        <item>Sega DreamCast</item>
+        <item>Atari Lynx</item>
+        <item>Atari Jaguar</item>
+
+    </string-array>
+</resources>
